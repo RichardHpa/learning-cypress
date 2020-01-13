@@ -1,3 +1,5 @@
+alert(Cypress.env('MY_ENV_VARIABLE'));
+
 describe('Basic page interactions', () => {
     beforeEach(() => {
         cy.visit('/example-4');
@@ -38,7 +40,7 @@ describe('Basic page interactions', () => {
             // .then(() => {
             //     debugger;
             // });
-            .debug();
+            // .debug();
 
         cy.get('[data-cy=box-4-selected-name]')
             .invoke('text')
