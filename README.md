@@ -12,5 +12,5 @@ This project is running tests for a local React application which is provided in
 git clone https://github.com/RichardHpa/learning-cypress
 cd learning-cypress
 # Install the dependancies
-composer install
+npm install
 ```
